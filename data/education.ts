@@ -23,7 +23,7 @@ export const education: Education[] = [
     id: "cs-bsc",
     place: "FH Aachen University of Applied Sciences",
     degree: { en: "Computer Science B.Sc.", de: "Informatik B.Sc."},
-    timespan: { en: "Oct 2023 - Aug 2026", de: "Okt. 2023 - Juli 2026" },
+    timespan: { en: "Oct 2023 - Jul 2026", de: "Okt. 2023 - Juli 2026" },
     description: {
       en: `Specialisation: Software Engineering (& IT-Security)
 
