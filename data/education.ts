@@ -1,0 +1,36 @@
+import { type Locale } from "@/utils.ts";
+
+export type Education = {
+  id: string,
+  place: string;
+  degree: Record<Locale, string>;
+  timespan: Record<Locale, string>;
+  description: Record<Locale, string>;
+}
+
+export const education: Education[] = [
+  {
+    id: "cs-msc",
+    place: "RWTH Aachen",
+    degree: { en: "Computer Science M.Sc.", de: "Informatik M.Sc."},
+    timespan: { en: "Oct 2026 - Aug 2028 (expected)", de: "Okt. 2026 - Aug. 2028 (voraussichtlich)" },
+    description: {
+      en: `I plan to earn my master's degree in computer science at RWTH Aachen University. As part of my master's program, I would particularly like to learn more about data science and machine learning, as my knowdlege in these fields is at this point on a basic level and because they are currently in high demand.`,
+      de: `Ich habe vor, meinen Master in Informatik an der RWTH Aachen zu absolvieren. Im Rahmen meines Masterstudiums möchte ich mich insbesondere mit Data Science und maschinellem Lernen beschäftigen, da sich mein Wissen in diesen Bereiche noch auf einem Basis-Level befindet und sie derzeit sehr gefragt sind.`,
+    },
+  },
+  {
+    id: "cs-bsc",
+    place: "FH Aachen University of Applied Sciences",
+    degree: { en: "Computer Science B.Sc.", de: "Informatik B.Sc."},
+    timespan: { en: "Oct 2023 - Aug 2026", de: "Okt. 2023 - Juli 2026" },
+    description: {
+      en: `Specialisation: Software Engineering (& IT-Security)
+
+Relevant coursework: DevOps, DevSecOps, Requirements Engineering, Software Testing, Modern Programming Language Concepts, Fault-Tolerant Systems, IT-Infrastructure, IT-Security, Linux, Databases, Web Technologies, Object-Oriented Software Development, Algorithms and Data Structures`,
+      de: `Schwerpunkt: Softwareentwicklung (& IT-Sicherheit)
+
+Relevante Studienfächer: DevOps, DevSecOps, Requirements Engineering, Software Testing, Konzepte moderner Programmiersprachen, Fehlertolerante Systeme, IT-Infrastruktur, IT-Sicherheit, Linux, Datenbanken, Webtechnologien, Objekt-Orientierte Softwareentwicklung, Algorithmen und Datenstrukturen`,
+    },
+  },
+]

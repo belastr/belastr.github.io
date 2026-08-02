@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+body {
+  background-color: #ffffff;
+  color: #1c1e21;
+  font-family: "Optimistic VF", Montserrat, Helvetica, Arial, "Noto Sans", sans-serif;
+}
+
+span {
+  color: #1c1e21;
+}
+
+span.span-invert {
+  color: #ffffff;
+}
+
+p {
+  color: #1c1e21;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1c1e21;
+    color: #ffffff;
+    font-family: "Optimistic VF", Montserrat, Helvetica, Arial, "Noto Sans", sans-serif;
+  }
+
+  span {
+    color: #ffffff;
+  }
+
+  p {
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .non-mobile {
+    display: none;
+  }
+}
+
+.dark-gradient {
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(200, 200, 200),
+    rgb(100, 100, 100),
+    rgb(0, 0, 0)
+  );
+}
+
+.fresh-gradient {
+  background-color: rgb(134, 239, 172);
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(219, 234, 254),
+    rgb(187, 247, 208),
+    rgb(254, 249, 195)
+  );
+}
