@@ -1,4 +1,4 @@
-import{d as m}from"./hooks.module-DGh3qHUV.js";import{r as l,S as p}from"./SideNav-BK-o0ka8.js";import{t as c}from"./utils--XOEw7Wu.js";import{u as e}from"./jsxRuntime.module-BNAG-PpR.js";import"./projects-CxH7ClD-.js";import"./shared-BhHcoTYA.js";function x({lang:i}){return e("div",{class:"h-full mr-10",children:e("div",{class:"h-full min-w-0 min-h-0 flex gap-x-4 items-center",children:[e("div",{class:"mobile min-w-0 min-h-0 flex",children:e(p,{lang:i})}),e("a",{class:`
+import{d as m}from"./hooks.module-DGh3qHUV.js";import{r as l,S as p}from"./SideNav-BthCb-N4.js";import{t as c}from"./utils-CZH3EtWG.js";import{u as e}from"./jsxRuntime.module-BNAG-PpR.js";import"./projects-CxH7ClD-.js";import"./shared-BDj9dePb.js";function x({lang:i}){return e("div",{class:"h-full mr-10",children:e("div",{class:"h-full min-w-0 min-h-0 flex gap-x-4 items-center",children:[e("div",{class:"mobile min-w-0 min-h-0 flex",children:e(p,{lang:i})}),e("a",{class:`
             shrink-0
             h-full relative z-0 min-w-0 min-h-0 m-0 p-0
             flex justify-center items-center basis-auto
