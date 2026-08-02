@@ -1,0 +1,8 @@
+# build directory
+_dist/
+
+# npm dependencies
+node_modules/
+
+# ide
+.vscode/
