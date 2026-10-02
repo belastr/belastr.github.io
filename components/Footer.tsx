@@ -23,7 +23,7 @@ export default function Footer(): JSX.Element {
               <div class="flex-1" />
               <div class="shrink-0 grow-0 max-w-full px-4 basis-auto">
                 <span class="text-[1rem] leading-[1.4286] tracking-[-.01em] font-normal">
-                  06.2026
+                  10.2026
                 </span>
               </div>
             </div>

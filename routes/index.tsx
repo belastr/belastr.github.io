@@ -10,12 +10,12 @@ const text: Record<
   { title: string; intro: string }
 > = {
   en: {
-    title: "Full-Stack Developer – Computer Science B.Sc. Student",
-    intro: "I'm a Computer Science student at FH Aachen in the final weeks of my Bachelor's degree. After completing my Bachelor's, I plan to continue my academic journey with a Master's degree at RWTH Aachen University. I've gained hands-on experience tutoring programming, working as a full-stack developer on multiplayer projects with thousands of active players, and delivering large-scale software projects also as part of my university studies. My goal is to further refine my skills and build a career in software engineering, whether in full-stack, backend, or another role where I can make the most impact while finding the right fit.",
+    title: "M.Sc. Computer Science Student - Full-Stack Software Engineer",
+    intro: "I'm a Computer Science Master's student at RWTH Aachen in the first year. Part-time I work as a research assistant at my previous university, FH Aachen. On the side I have been gathering additional full-stack experience from many years of freelancing, mostly in gaming. I'm aiming for an engineering role at a leading international tech company, where I can work on large-scale products and learn from the strongest teams.",
   },
   de: {
-    title: "Full-Stack Entwickler – Informatik B.Sc. Student",
-    intro: "Ich bin Informatikstudent an der FH Aachen und befinde mich in den letzten Wochen meines Bachelorstudiums. Nach meinem Bachelorabschluss plane ich, mein Studium mit einem Masterstudium an der RWTH Aachen fortzusetzen. Ich habe praktische Erfahrungen gesammelt, indem ich als Tutor für Programmieren gearbeitet habe, als Full-Stack-Entwickler an Multiplayer-Projekten mit Tausenden von aktiven Spielern gearbeitet habe und auch im Rahmen meines Studiums groß angelegte Softwareprojekte umgesetzt habe. Mein Ziel ist es, meine Fähigkeiten weiter zu verfeinern und eine Karriere im Bereich Softwareentwicklung aufzubauen – sei es als Full-Stack-Entwickler, im Backend oder in einer anderen Rolle, in der ich den größten Beitrag leisten und gleichzeitig die richtige Passung finden kann.",
+    title: "M.Sc. Informatik Student - Full-Stack Software Ingenieur",
+    intro: "Ich bin Masterstudent der Informatik an der RWTH Aachen im ersten Jahr. Nebenbei arbeite ich als wissenschaftliche Hilfskraft an meiner früheren Hochschule, der FH Aachen. Darüber hinaus habe ich durch meine langjährige freiberufliche Tätigkeit, vor allem im Gaming-Bereich, zusätzliche Full-Stack-Erfahrung gesammelt. Mein Ziel ist eine Position als Entwickler bei einem führenden internationalen Technologieunternehmen, wo ich an groß angelegten Produkten arbeiten und von den besten Teams lernen kann.",
   },
 };
 
@@ -32,7 +32,7 @@ function About({ t }: { t: Record<string, string> }): JSX.Element {
             </span>
             <span class="text-center">
               <h2 class="mt-0 mb-0 mbs-[0.83em] mbe-[0.83em] text-[3rem] leading-[1.1667] font-medium">
-                Béla Struffolino
+                Béla Struffolino, B.Sc.
               </h2>
             </span>
             <span class="mt-4 px-8 text-center">

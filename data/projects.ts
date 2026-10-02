@@ -49,9 +49,9 @@ Students can also formally submit solutions, which are evaluated against hidden 
 
 The platform implements a role-based access model consisting of:
 
-* **Students** – Solve exercises, run tests, and submit solutions
-* **Supervisors** – Review student profiles and submission histories
-* **Administrators** – Manage exercises, users, and platform configuration
+* **Students** - Solve exercises, run tests, and submit solutions
+* **Supervisors** - Review student profiles and submission histories
+* **Administrators** - Manage exercises, users, and platform configuration
 
 Authentication is implemented using JWT-based authorization, with user roles embedded directly within the token payload.
 

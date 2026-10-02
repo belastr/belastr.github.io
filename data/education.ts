@@ -12,17 +12,17 @@ export const education: Education[] = [
   {
     id: "cs-msc",
     place: "RWTH Aachen",
-    degree: { en: "Computer Science M.Sc.", de: "Informatik M.Sc."},
-    timespan: { en: "Oct 2026 - Aug 2028 (expected)", de: "Okt. 2026 - Aug. 2028 (voraussichtlich)" },
+    degree: { en: "M.Sc. Computer Science", de: "M.Sc. Informatik"},
+    timespan: { en: "Oct 2026 - Sep 2028 (expected)", de: "Okt. 2026 - Sept. 2028 (erwartet)" },
     description: {
-      en: `I plan to earn my master's degree in computer science at RWTH Aachen University. As part of my master's program, I would particularly like to learn more about data science and machine learning, as my knowdlege in these fields is at this point on a basic level and because they are currently in high demand.`,
-      de: `Ich habe vor, meinen Master in Informatik an der RWTH Aachen zu absolvieren. Im Rahmen meines Masterstudiums möchte ich mich insbesondere mit Data Science und maschinellem Lernen beschäftigen, da sich mein Wissen in diesen Bereiche noch auf einem Basis-Level befindet und sie derzeit sehr gefragt sind.`,
+      en: `My motivation is to refine my Full-Stack and DevOps skills, while learning about new theoretical sides of computer science including artificial intelligence and machine learning.`,
+      de: `Meine Motivation besteht darin, meine Full-Stack- und DevOps-Kenntnisse zu vertiefen und mich gleichzeitig mit neuen theoretischen Aspekten der Informatik, darunter künstliche Intelligenz und maschinelles Lernen, auseinanderzusetzen.`,
     },
   },
   {
     id: "cs-bsc",
     place: "FH Aachen University of Applied Sciences",
-    degree: { en: "Computer Science B.Sc.", de: "Informatik B.Sc."},
+    degree: { en: "B.Sc. Computer Science", de: "B.Sc. Informatik"},
     timespan: { en: "Oct 2023 - Jul 2026", de: "Okt. 2023 - Juli 2026" },
     description: {
       en: `Specialisation: Software Engineering (& IT-Security)
