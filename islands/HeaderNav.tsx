@@ -103,11 +103,6 @@ export default function HeaderNav({ lang, pathname }: { lang: Locale; pathname: 
 
   return (
     <div onMouseLeave={() => handleMenuChange(null)}>
-      <div class={`
-        w-full h-full absolute top-0 z-[-1] inset-s-0
-        transition-colors duration-150 ease-out [backdrop-filter:blur(20px)]
-        ${activeMenu !== null && routes[activeMenu]?.children ? "bg-[#eeeeeecc] dark:bg-[#3e404333]" : "bg-[#ffffffcc] dark:bg-[#1c1e2133]"}
-      `} />
       <div class="w-full absolute top-0 z-0 pt-16" />
       <div class="w-full h-16 max-w-376 relative mx-auto mt-0 px-8">
         <div class="h-full min-w-0 min-h-0 mt-0 flex">
@@ -165,15 +160,17 @@ export default function HeaderNav({ lang, pathname }: { lang: Locale; pathname: 
       </div>
       <div
         class={`
-          w-full absolute top-16 z-20
+          w-full absolute top-0 z-[-1] pt-16
           flex justify-center
-          transition-opacity duration-150 ease-out [backdrop-filter:blur(20px)]
-          ${activeMenu !== null && routes[activeMenu]?.children ? "opacity-100" : "opacity-0"}
-          bg-[#eeeeeecc] dark:bg-[#3e404333] shadow-xl shadow-[#1c1e2111] dark:shadow-[#ffffff11]
+          transition-all duration-150 ease [backdrop-filter:blur(20px)]
+          ${activeMenu !== null && routes[activeMenu]?.children
+            ? "bg-[#eeeeeecc] dark:bg-[#3e404333] shadow-xl shadow-[#1c1e2111] dark:shadow-[#ffffff11]"
+            : "bg-[#ffffffcc] dark:bg-[#1c1e2133]"
+          }
         `}
       >
         {displayMenu !== null && routes[displayMenu]?.children && (
-          <div class="grow min-w-0 max-w-376 pl-42 pt-6 pb-8 flex">
+          <div class={`grow min-w-0 max-w-376 pl-42 pt-6 pb-8 flex ${activeMenu !== null && routes[activeMenu]?.children ? "opacity-100" : "opacity-0"}`}>
             <div class="grid grid-cols-2 gap-x-24 gap-y-3">
               {routes[displayMenu].children.map((child) => (
                 <SubLink
