@@ -10,12 +10,12 @@ const text: Record<
   { title: string; intro: string }
 > = {
   en: {
-    title: "M.Sc. Computer Science Student - Full-Stack Software Engineer",
-    intro: "I'm a Computer Science Master's student at RWTH Aachen in the first year. Part-time I work as a research assistant at my previous university, FH Aachen. On the side I have been gathering additional full-stack experience from many years of freelancing, mostly in gaming. I'm aiming for an engineering role at a leading international tech company, where I can work on large-scale products and learn from the strongest teams.",
+    title: "M.Sc. Computer Science Student @ RWTH Aachen · Research Assistant & Software Engineer",
+    intro: "I'm a first-year M.Sc. Computer Science student at RWTH Aachen University, working part-time as a Research Assistant in the IT Systems Lab at FH Aachen. Alongside my studies, I bring over five years of freelance software engineering experience building full-stack web applications, backend services, and high-concurrency multiplayer game infrastructure. I'm currently looking for Software Engineering internships or entry-level roles in Big Tech where I can build reliable, large-scale systems.",
   },
   de: {
-    title: "M.Sc. Informatik Student - Full-Stack Software Ingenieur",
-    intro: "Ich bin Masterstudent der Informatik an der RWTH Aachen im ersten Jahr. Nebenbei arbeite ich als wissenschaftliche Hilfskraft an meiner früheren Hochschule, der FH Aachen. Darüber hinaus habe ich durch meine langjährige freiberufliche Tätigkeit, vor allem im Gaming-Bereich, zusätzliche Full-Stack-Erfahrung gesammelt. Mein Ziel ist eine Position als Entwickler bei einem führenden internationalen Technologieunternehmen, wo ich an groß angelegten Produkten arbeiten und von den besten Teams lernen kann.",
+    title: "M.Sc.-Student der Informatik @ RWTH Aachen · Wissenschaftlicher Mitarbeiter & Softwareentwickler",
+    intro: "Ich bin Student im ersten Jahr des Masterstudiengangs Informatik an der RWTH Aachen und arbeite nebenbei als wissenschaftlicher Mitarbeiter im IT-Systems-Lab der FH Aachen. Neben meinem Studium bringe ich über fünf Jahre Erfahrung als freiberuflicher Softwareentwickler mit, in denen ich Full-Stack-Webanwendungen, Backend-Dienste und Infrastrukturen für Multiplayer-Spiele mit hoher Parallelität entwickelt habe. Derzeit bin ich auf der Suche nach Praktika im Bereich Softwareentwicklung oder Einstiegspositionen bei großen Technologieunternehmen, bei denen ich zuverlässige, groß angelegte Systeme entwickeln kann.",
   },
 };
 
