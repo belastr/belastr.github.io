@@ -49,7 +49,7 @@ export default function DetailedExperiences({ lang }: { lang: Locale }): JSX.Ele
                               {pos.timespan[lang]}
                             </p>
                           </div>
-                          <div class="-mx-4 mb-4">
+                          <div class="-mx-4 my-4">
                             <MarkdownText md={pos.description[lang]} />
                           </div>
                         </div>

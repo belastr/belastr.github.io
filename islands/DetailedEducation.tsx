@@ -24,7 +24,7 @@ export default function DetailedEducation({ lang }: { lang: Locale }): JSX.Eleme
                   <p class="font-normal whitespace-pre-wrap">
                     {e.timespan[lang]}
                   </p>
-                  <div class="-mx-4 mb-4">
+                  <div class="-mx-4 my-4">
                     <MarkdownText md={e.description[lang]} />
                   </div>
                 </div>
